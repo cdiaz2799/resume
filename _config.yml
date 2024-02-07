@@ -1,0 +1,56 @@
+# basic settings
+title: "Christian Diaz"
+email: "hireme@cdiaz.cloud"
+description: "Christian Diaz - Site Reliability Engineer"
+author: "cdiaz"
+# baseurl: "https://cdiaz.cloud" # the subpath of your site, e.g. /blog
+url: "https://cdiaz.cloud"
+date_format: "%d %B %Y"
+
+# paginations & permalinks
+paginate: 9
+paginate_path: "/blog/page:num/"
+permalink: pretty
+
+# disqus comments
+disqus_comments: "no"
+
+# formsubmit.io
+formsubmit_email: "hireme@cdiaz.cloud"
+
+# collections
+collections:
+  - works
+
+# archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive
+    tag: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Build settings
+plugins:
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+
+sass:
+  style: compressed
+
+markdown: kramdown

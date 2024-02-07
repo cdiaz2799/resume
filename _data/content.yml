@@ -1,0 +1,134 @@
+# Sections content configuration file
+
+### About [ about ]
+about:
+  title: "About Me"
+  image: "assets/img/man1.jpg"
+  text: "
+    <p>
+    Site Reliability Engineer with extensive experience in internal IT Operations. Proficient in numerous public cloud platforms, configuration management, and implementing identity and access management solutions. Adept at automating processes and deploying Infrastructure-as-Code (IaC) using Terraform and Pulumi. Proven ability to troubleshoot complex issues, drive security enhancements, and independently manage cross-functional projects.
+    </p>
+    "
+  list:
+    - label: "Name"
+      value: "Christian Diaz"
+
+    - label: "Role"
+      value: "Site Reliability Engineer"
+
+    - label: "Location"
+      value: "Phoenix, AZ"
+
+  download:
+    text: "Download Resume"
+    link: "https://drive.google.com/file/d/12OFndBdXJo7WDx8nj_FkAf5MBLr62KA8/view"
+
+### Resume [ resume ]
+resume:
+  experience:
+    title: "Experience"
+    items:
+      - year: "Jun 2021 - Present"
+        name: "Site Reliability Engineer II - Parsons Xtreme Golf"
+        text: "Supports a diverse, rapidly scaling global business by architecting, engineering, and maintaining applications/services."
+
+      - year: "Mar 2021 - Jun 2021"
+        name: "IT Core Engineer - Parsons Xtreme Golf"
+        text: "Maintained, monitored, and continuously improved existing SaaS and hosted services."
+
+      - year: "Jan 2019 - Mar 2021"
+        name: "IT Support Engineer - YAM Worldwide"
+        text: "Provided on-site, remote, and white-glove IT support for a portfolio of rapidly growing businesses, offering break/fix solutions, driving improvements, and delivering expert consultation services."
+
+      - year: "Jun 2018 - Jan 2019"
+        name: "Field Service Technician - Lowe's / CompuCom"
+        text: "Exclusively responsible for maintaining and repairing PCs, POS equipment, and network infrastructure across 12 Lowe’s Home Improvement locations, adhering to service level agreements (SLAs) to minimize downtime and ensure operational continuity."
+
+  education:
+    title: "Education and Certifications"
+    items:
+      - year: "2016 - 2020"
+        name: "Grand Canyon University"
+        text: "Bachelor of Science in Information Technology"
+
+      - year: "2019"
+        name: "CompTia A+"
+        text: "Credential ID: XZWLF0MMTL441E59"
+        url: https://verify.comptia.org
+
+      - year: "2020"
+        name: "CompTia Network+"
+        text: "Credential ID: Q6RGWWFM0P44QW5X"
+        url: https://verify.comptia.org
+
+      - year: "2021"
+        name: "CompTia Security+"
+        text: "Credential ID: R0NR53KFSPEQQXKD"
+        url: https://verify.comptia.org
+
+### Skills [ skills ]
+## #skills progress type - default, dotted, circles, list
+skills:
+  columns:
+    - type: "list"
+      title: "Cloud Platforms"
+      items:
+        - Google Cloud Platform (GCP)
+        - Amazon Web Services (AWS)
+        - DigitalOcean
+        - Microsoft Azure
+    - type: "list"
+      title: "Languages"
+      items:
+        - "Python"
+        - "Powershell"
+        - "Bash / Shell"
+
+    - title: "Containerization"
+      type: "list"
+      items:
+        - "Docker"
+        - "Kubernetes"
+        - "AWS ECS / Fargate"
+        - "GCP Cloud Run"
+
+    - title: "Infrastructure-as-Code"
+      type: "list"
+      items:
+        - "Pulumi"
+        - "Terraform"
+        - "CloudFormation"
+
+    - title: "Configuration Management"
+      type: "list"
+      items:
+        - "Ansible"
+        - "Linux System Administration"
+        - "Windows System Administration"
+
+    - title: "Misc."
+      type: "list"
+      items:
+        - "SAML / OIDC / OAuth"
+        - "Active Directory / AzureAD"
+        - "Okta"
+        - "DataDog"
+        - "Gitlab CI/CD"
+        - "GitHub Actions"
+        - "Jenkins"
+
+### Contact Info [ contacts-info ]
+contacts_info:
+  title: "Get in Touch"
+  list:
+    - label: "Email"
+      icon: "email"
+      value: "<a href='mailto:hireme@cdiaz.cloud'>hireme@cdiaz.cloud</a>"
+
+    - label: "Location"
+      icon: "ios-location"
+      value: "Phoenix, AZ"
+
+### Contact Form [ contacts-form ]
+contacts_form:
+  title: "Contact Form"

@@ -1,0 +1,17 @@
+# Footer configuration file
+##
+### param "social" - Social Links, icon class name you can find here https://ionicons.com/v2/
+### param "copy" - Copyright text
+
+main:
+  social:
+    - title: "LinkedIn"
+      icon: "social-linkedin"
+      url: "https://www.linkedin.com/in/christian-diaz26/"
+    - title: "GitHub"
+      icon: "social-github"
+      url: "https://github.com/cdiaz2799"
+    - title: "Gitlab"
+      # icon: "social-gitlab"
+      url: "https://gitlab.com/cdiaz3827/"
+  copy: "© 2024 Christian Diaz."
