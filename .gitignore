@@ -6,5 +6,5 @@ _site/
 .bundle/
 vendor/
 
-.vscode
+.vscode/
 .DS_Store
