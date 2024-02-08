@@ -56,7 +56,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install --upgrade -r infra/requirements.txt
 
       - name: Configure AWS Credentials
