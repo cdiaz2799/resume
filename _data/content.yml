@@ -3,7 +3,6 @@
 ### About [ about ]
 about:
   title: "About Me"
-  image: "assets/img/man1.jpg"
   text: "
     <p>
     Site Reliability Engineer with extensive experience in internal IT Operations. Proficient in numerous public cloud platforms, configuration management, and implementing identity and access management solutions. Adept at automating processes and deploying Infrastructure-as-Code (IaC) using Terraform and Pulumi. Proven ability to troubleshoot complex issues, drive security enhancements, and independently manage cross-functional projects.
