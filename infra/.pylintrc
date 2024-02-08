@@ -1,0 +1,9 @@
+[MASTER]
+
+# Ignore specific error types
+ignore=W0611,C0301,E0401
+
+[MESSAGES CONTROL]
+
+# Disable specific messages
+disable=line-too-long,import-error,unused-import
