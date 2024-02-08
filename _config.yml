@@ -49,6 +49,8 @@ exclude:
   - Gemfile.lock
   - node_modules/
   - vendor/
+  - .vscode/
+  - infra/
 
 sass:
   style: compressed

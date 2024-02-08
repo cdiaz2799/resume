@@ -1,0 +1,5 @@
+config:
+  aws-native:region: us-west-2
+  resume:subdomain: resume.cdiaz.cloud
+  resume:websitePath: ../_site
+  resume:apexDomain: cdiaz.cloud
