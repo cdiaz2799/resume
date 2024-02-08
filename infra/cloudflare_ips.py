@@ -1,3 +1,20 @@
+"""
+Module to retrieve Cloudflare IP ranges (IPv4 and IPv6) using the Cloudflare API.
+
+This module provides a function `get_cloudflare_ips()` to fetch Cloudflare IP ranges in CIDR notation.
+It sends a GET request to the Cloudflare API endpoint `/client/v4/ips` with the appropriate headers.
+The function returns a list containing Cloudflare IP ranges.
+
+Example:
+    >>> from cloudflare_ips import get_cloudflare_ips
+    >>> ips = get_cloudflare_ips()
+    >>> print(ips)
+    ['103.21.244.0/22', '103.22.200.0/22', ...]
+
+Raises:
+    Exception: If unable to retrieve Cloudflare IP ranges or encounter any other error during the process.
+"""
+
 import http.client
 import json
 
