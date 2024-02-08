@@ -6,8 +6,6 @@ type: content
 image: https://static.pretix.space/static/pretixeu/img/logo_dark.e848be43c07e.svg
 button_url: https://github.com/etcollective/pretix-infra/tree/main
 ---
-<img src="https://static.pretix.space/static/pretixeu/img/logo_dark.e848be43c07e.svg" width="100">
-
 ## Pretix Ticket Sales
 ### Infrastructure (Pulumi)
 Pulumi is utilized to deploy required resources. Current deployment is installed directly on a single compute node (due to cost). Improvement plans involve containerization and migration to a more cost effective platform (i.e. DigitalOcean).  
