@@ -6,6 +6,7 @@ author: "cdiaz"
 # baseurl: "https://cdiaz.cloud" # the subpath of your site, e.g. /blog
 url: "https://cdiaz.cloud"
 date_format: "%d %B %Y"
+google_analytics: true
 
 # paginations & permalinks
 paginate: 9
