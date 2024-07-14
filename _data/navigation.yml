@@ -21,12 +21,7 @@ main:
     url: "projects/"
     button: 0
 
-  # # Blog
-  # - title: "Blog"
-  #   url: "blog/"
-  #   button: 0
-
-  # Contacts
-  - title: "Contact"
-    url: "contact/"
-    button: 1
+  # # Contacts
+  # - title: "Contact"
+  #   url: "contact/"
+  #   button: 1

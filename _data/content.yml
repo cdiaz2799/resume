@@ -20,16 +20,16 @@ about:
 
   download:
     text: "Download Resume"
-    link: "https://drive.google.com/file/d/12OFndBdXJo7WDx8nj_FkAf5MBLr62KA8/view"
+    link: "https://drive.google.com/file/d/124I7lkEL0HRAxYtK4h1iMPv5mHHiziUz/view?usp=sharing"
 
 ### Resume [ resume ]
 resume:
   experience:
     title: "Experience"
     items:
-      - year: "Jun 2021 - Present"
+      - year: "Jun 2021 - Jun 2024"
         name: "Site Reliability Engineer II - Parsons Xtreme Golf"
-        text: "Supports a diverse, rapidly scaling global business by architecting, engineering, and maintaining applications/services."
+        text: "SRE for high-velocity organization through periods of rapid growth, from 200 local employees to 1200+ throughout the US, Mexico, UK, and Japan."
 
       - year: "Mar 2021 - Jun 2021"
         name: "IT Core Engineer - Parsons Xtreme Golf"
@@ -41,7 +41,7 @@ resume:
 
       - year: "Jun 2018 - Jan 2019"
         name: "Field Service Technician - Lowe's / CompuCom"
-        text: "Exclusively responsible for maintaining and repairing PCs, POS equipment, and network infrastructure across 12 Lowe’s Home Improvement locations, adhering to service level agreements (SLAs) to minimize downtime and ensure operational continuity."
+        text: "Sole engineer responsible for maintaining and repairing PCs, POS equipment, and network infrastructure across 12 Lowe’s Home Improvement locations, adhering to service level agreements (SLAs) to minimize downtime and ensure operational continuity."
 
   education:
     title: "Education and Certifications"
@@ -53,17 +53,17 @@ resume:
       - year: "2019"
         name: "CompTia A+"
         text: "Credential ID: XZWLF0MMTL441E59"
-        url: https://verify.comptia.org
+        # url: https://verify.comptia.org
 
       - year: "2020"
         name: "CompTia Network+"
         text: "Credential ID: Q6RGWWFM0P44QW5X"
-        url: https://verify.comptia.org
+        # url: https://verify.comptia.org
 
       - year: "2021"
         name: "CompTia Security+"
         text: "Credential ID: R0NR53KFSPEQQXKD"
-        url: https://verify.comptia.org
+        # url: https://verify.comptia.org
 
 ### Skills [ skills ]
 ## #skills progress type - default, dotted, circles, list
